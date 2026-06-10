@@ -63,7 +63,7 @@ export const PARCOURS: Parcours[] = [
   mkParcours('gravel-160', 'gravel', 'Raid Gravel 160 km', '160 km', '/gpx/gravel/Sortie_Gravel_160_KM_CCBL.gpx',null,undefined,undefined,'3615144'),
 
   // ── Raid VTT / VAE ────────────────────────────────────
-  mkParcours('raid-vtt-85',  'raid-vtt', 'Raid VTT/VAE 85 km',  '85 km',  '/gpx/road/DJAKASS_85_2K26.gpx',null,undefined,undefined,'3615148'),
-  mkParcours('raid-vtt-110', 'raid-vtt', 'Raid VTT/VAE 110 km', '110 km', '/gpx/road/DJAKASS_110_2K26.gpx',null,undefined,undefined,'3615149'),
-  mkParcours('raid-vtt-137', 'raid-vtt', 'Raid VTT/VAE 137 km', '137 km', '/gpx/road/DJAKASS_137_2K26.gpx',null,undefined,undefined,'3615150'),
+  mkParcours('raid-vtt-85',  'raid-vtt', 'Raid VTT/VAE 85 km',  '85 km',  '/gpx/vtt/DJAKASS_85_2K26.gpx',null,undefined,undefined,'3615148'),
+  mkParcours('raid-vtt-110', 'raid-vtt', 'Raid VTT/VAE 110 km', '110 km', '/gpx/vtt/DJAKASS_110_2K26.gpx',null,undefined,undefined,'3615149'),
+  mkParcours('raid-vtt-137', 'raid-vtt', 'Raid VTT/VAE 137 km', '137 km', '/gpx/vtt/DJAKASS_137_2K26.gpx',null,undefined,undefined,'3615150'),
 ]
