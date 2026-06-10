@@ -45,7 +45,7 @@ const mkParcours = (
 export const PARCOURS: Parcours[] = [
   // ── Pédestre ──────────────────────────────────────────
   mkParcours('pedestre-10', 'pedestre', 'Rando pédestre 10 km', '10 km', '/gpx/walk/Marche_10_KM_2026.gpx',null,undefined,undefined,'3615087'),
-  mkParcours('pedestre-20', 'pedestre', 'Rando pédestre 20 km', '20 km', '/gpx/walk/Marche_22_KM_2026.gpx',null,undefined,undefined,'3650089'),
+  mkParcours('pedestre-20', 'pedestre', 'Rando pédestre 20 km', '20 km', '/gpx/walk/Marche_22_KM_2026.gpx',null,undefined,undefined,'3615089'),
   mkParcours('pedestre-30', 'pedestre', 'Rando pédestre 30 km', '30 km', null),
 
   // ── Route ─────────────────────────────────────────────
