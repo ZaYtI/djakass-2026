@@ -39,20 +39,19 @@ const mkParcours = (
   gpx,
   strava: `https://www.strava.com/routes/${stravaId}`,
   garmin: `https://connect.garmin.com/modern/course/${garminId}`,
-  igp:    `https://app.igpsport.com/activity/${igpId}`,
+  igp:    `https://analyse.en.igpsport.com/new/my/road/book/share?routeId=${igpId}&language=fr`,
 })
 
 export const PARCOURS: Parcours[] = [
   // ── Pédestre ──────────────────────────────────────────
-  mkParcours('pedestre-10', 'pedestre', 'Rando pédestre 10 km', '10 km', '/gpx/walk/Marche_10_KM_2026.gpx'),
-  mkParcours('pedestre-20', 'pedestre', 'Rando pédestre 20 km', '20 km', '/gpx/walk/Marche_22_KM_2026.gpx'),
+  mkParcours('pedestre-10', 'pedestre', 'Rando pédestre 10 km', '10 km', '/gpx/walk/Marche_10_KM_2026.gpx',null,undefined,undefined,'3615087'),
+  mkParcours('pedestre-20', 'pedestre', 'Rando pédestre 20 km', '20 km', '/gpx/walk/Marche_22_KM_2026.gpx',null,undefined,undefined,'3650089'),
   mkParcours('pedestre-30', 'pedestre', 'Rando pédestre 30 km', '30 km', null),
 
   // ── Route ─────────────────────────────────────────────
-  mkParcours('route-40', 'route', 'Rando route 40 km', '40 km', '/gpx/road/DJAKASS_40_2K26.gpx'),
-  mkParcours('route-60', 'route', 'Rando route 60 km', '60 km', '/gpx/road/DJAKASS_60_2K26.gpx'),
-  mkParcours('route-80', 'route', 'Rando route 80 km', '80 km', '/gpx/road/DJAKASS_80_2K26.gpx'),
-
+  mkParcours('route-40', 'route', 'Rando route 40 km', '40 km', '/gpx/road/DJAKASS_40_2K26.gpx',null,undefined,undefined,'3615028'),
+  mkParcours('route-60', 'route', 'Rando route 60 km', '60 km', '/gpx/road/DJAKASS_60_2K26.gpx',null,undefined,undefined,'3615024'),
+  mkParcours('route-80', 'route', 'Rando route 80 km', '80 km', '/gpx/road/DJAKASS_80_2K26.gpx',null,undefined,undefined,'3615022'),
   // ── VTT / VAE ─────────────────────────────────────────
   mkParcours('vtt-30', 'vtt', 'Rando VTT/VAE 30 km', '30 km', '/gpx/vtt/VTT_2026_30_KM_CCBL.gpx'),
   mkParcours('vtt-37', 'vtt', 'Rando VTT/VAE 37 km', '37 km', '/gpx/vtt/VTT_2026_37_KM_CCBL.gpx'),
