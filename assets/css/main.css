@@ -1,0 +1,73 @@
+/* ── Palette Les D'Jakass ── */
+:root {
+  --noir:    #1a1a1a;
+  --noir2:   #242424;
+  --noir3:   #2e2e2e;
+  --orange:  #f07800;
+  --orange2: #ff9a2e;
+  --gris:    #3a3a3a;
+  --gris2:   #505050;
+  --gris3:   #888;
+  --fond:    #141414;
+  --card:    #1e1e1e;
+  --border:  #303030;
+  --texte:   #f0f0f0;
+  --texte2:  #aaa;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--fond);
+  color: var(--texte);
+  min-height: 100vh;
+}
+
+/* ── Utilitaires ── */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.tag-km {
+  background: rgba(240, 120, 0, 0.15);
+  color: var(--orange2);
+}
+
+.stat {
+  background: var(--noir3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 14px;
+  text-align: center;
+}
+
+.stat-val {
+  font-size: 15px;
+  font-weight: 900;
+  color: var(--orange);
+}
+
+.stat-label {
+  font-size: 9px;
+  color: var(--gris3);
+  margin-top: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gris3);
+  margin-bottom: 10px;
+}
