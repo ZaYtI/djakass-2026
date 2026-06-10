@@ -53,17 +53,17 @@ export const PARCOURS: Parcours[] = [
   mkParcours('route-60', 'route', 'Rando route 60 km', '60 km', '/gpx/road/DJAKASS_60_2K26.gpx',null,undefined,undefined,'3615024'),
   mkParcours('route-80', 'route', 'Rando route 80 km', '80 km', '/gpx/road/DJAKASS_80_2K26.gpx',null,undefined,undefined,'3615022'),
   // ── VTT / VAE ─────────────────────────────────────────
-  mkParcours('vtt-30', 'vtt', 'Rando VTT/VAE 30 km', '30 km', '/gpx/vtt/VTT_2026_30_KM_CCBL.gpx'),
-  mkParcours('vtt-37', 'vtt', 'Rando VTT/VAE 37 km', '37 km', '/gpx/vtt/VTT_2026_37_KM_CCBL.gpx'),
-  mkParcours('vtt-43', 'vtt', 'Rando VTT/VAE 43 km', '43 km', '/gpx/vtt/VTT_2026_43_KM_CCBL.gpx'),
-  mkParcours('vtt-62', 'vtt', 'Rando VTT/VAE 62 km', '62 km', '/gpx/vtt/VTT_2026_62_KM_CCBL.gpx'),
+  mkParcours('vtt-30', 'vtt', 'Rando VTT/VAE 30 km', '30 km', '/gpx/vtt/VTT_2026_30_KM_CCBL.gpx',null,undefined,undefined,'3615120'),
+  mkParcours('vtt-37', 'vtt', 'Rando VTT/VAE 37 km', '37 km', '/gpx/vtt/VTT_2026_37_KM_CCBL.gpx',null,undefined,undefined,'3615122'),
+  mkParcours('vtt-43', 'vtt', 'Rando VTT/VAE 43 km', '43 km', '/gpx/vtt/VTT_2026_43_KM_CCBL.gpx',null,undefined,undefined,'3615124'),
+  mkParcours('vtt-62', 'vtt', 'Rando VTT/VAE 62 km', '62 km', '/gpx/vtt/VTT_2026_62_KM_CCBL.gpx',null,undefined,undefined,'3615126'),
 
   // ── Gravel ────────────────────────────────────────────
-  mkParcours('gravel-95',  'gravel', 'Raid Gravel 95 km',  '95 km',  '/gpx/gravel/Sortie_Gravel_95_KM_CCBL.gpx'),
-  mkParcours('gravel-160', 'gravel', 'Raid Gravel 160 km', '160 km', '/gpx/gravel/Sortie_Gravel_160_KM_CCBL.gpx'),
+  mkParcours('gravel-95',  'gravel', 'Raid Gravel 95 km',  '95 km',  '/gpx/gravel/Sortie_Gravel_95_KM_CCBL.gpx',null,undefined,undefined,'3615142'),
+  mkParcours('gravel-160', 'gravel', 'Raid Gravel 160 km', '160 km', '/gpx/gravel/Sortie_Gravel_160_KM_CCBL.gpx',null,undefined,undefined,'3615144'),
 
   // ── Raid VTT / VAE ────────────────────────────────────
-  mkParcours('raid-vtt-85',  'raid-vtt', 'Raid VTT/VAE 85 km',  '85 km',  '/gpx/road/DJAKASS_85_2K26.gpx'),
-  mkParcours('raid-vtt-110', 'raid-vtt', 'Raid VTT/VAE 110 km', '110 km', '/gpx/road/DJAKASS_110_2K26.gpx'),
-  mkParcours('raid-vtt-137', 'raid-vtt', 'Raid VTT/VAE 137 km', '137 km', '/gpx/road/DJAKASS_137_2K26.gpx'),
+  mkParcours('raid-vtt-85',  'raid-vtt', 'Raid VTT/VAE 85 km',  '85 km',  '/gpx/road/DJAKASS_85_2K26.gpx',null,undefined,undefined,'3615148'),
+  mkParcours('raid-vtt-110', 'raid-vtt', 'Raid VTT/VAE 110 km', '110 km', '/gpx/road/DJAKASS_110_2K26.gpx',null,undefined,undefined,'3615149'),
+  mkParcours('raid-vtt-137', 'raid-vtt', 'Raid VTT/VAE 137 km', '137 km', '/gpx/road/DJAKASS_137_2K26.gpx',null,undefined,undefined,'3615150'),
 ]
